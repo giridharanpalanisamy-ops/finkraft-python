@@ -1,0 +1,13 @@
+[project]
+name = "finkraft"
+version = "0.1.0"
+description = "Minimal e-invoice submission core: state machine, ASP adapter contract, in-memory store and mock ASP A"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
